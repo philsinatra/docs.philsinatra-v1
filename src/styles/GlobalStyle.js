@@ -2,20 +2,6 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 
-@font-face {
-	font-family: 'new_york';
-	src: url('/fonts/newyorkmedium-regular-webfont.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'new_york';
-	src: url('/fonts/newyorkmedium-bold-webfont.woff2') format('woff2');
-	font-weight: bold;
-	font-style: normal;
-}
-
 html {
 	--color-black: hsla(109, 0%, 0%, 1);
 	--color-gray-dark: hsla(210, 10%, 15%, 1);
@@ -75,7 +61,7 @@ html {
 body {
 	background-color: var(--color-background);
 	color: var(--color-foreground);
-	font-family: 'new_york', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+	font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
 		Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
 		'Segoe UI Symbol';
 	line-height: 1.4;
