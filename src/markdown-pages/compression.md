@@ -95,3 +95,13 @@ tar -xvf yourfile.tar
 # extract to different directory
 tar -C /myfolder -xvf yourfile.tar
 ```
+
+## `tar.bz2` Format
+
+```bash{numberLines: true}
+# to compress
+tar -jcvf archive_name.tar.bz2 folder_to_compress
+
+# to extract
+tar -jxvf archive_name.tar.bz2
+```
