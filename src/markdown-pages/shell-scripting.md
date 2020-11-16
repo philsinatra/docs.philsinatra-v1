@@ -309,6 +309,12 @@ else
 fi
 ```
 
+## Recursively Remove 'node_modules' Directories
+
+```bash
+find . -name "node_modules" -type d -prune -exec rm -rf '{}' +
+```
+
 ## Some helpful ftp commands
 
 - pwd:    print working directory of remote host
